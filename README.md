@@ -59,20 +59,6 @@ PIV grid (X, Y)
 
 Valid mask
 
-Minimal Example
-params = dict(
-    window_size=32,
-    overlap=16,
-    search_area_size=64,
-    dt=1.0,
-)
-
-PIV_single_test(
-    batch_n=10,
-    gen_loc="./output/",
-    im_loc="./images/",
-    file_name="experiment_001",
-    params=params
-)
+## Example execution
 
 Example ipbyn file should run directly without modifying anything.
