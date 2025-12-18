@@ -8,7 +8,9 @@ Minimal reproducible example to investigate **low GPU utilization** when using t
 
 piv_debug/
 ├── README.md
+
 ├── environment.yml # Conda environment (CUDA, PyCUDA, OpenPIV GPU)
+
 └── PIV_utils_tg.py # GPU PIV test and batch utilities
 
 ## Environment Setup
