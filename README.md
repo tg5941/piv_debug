@@ -31,6 +31,7 @@ Working NVIDIA drivers (nvidia-smi)
 Expected Data Structure
 
 Input images must be PNGs arranged as:
+```bash
 <im_loc>/<file_name>/
 ├── Left/
 │   ├── frame_0001.png
@@ -40,6 +41,7 @@ Input images must be PNGs arranged as:
     ├── frame_0001.png
     ├── frame_0002.png
     └── ...
+```
 Left and Right folders must contain the same number of frames.
 
 Core Functions
