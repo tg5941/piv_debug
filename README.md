@@ -2,16 +2,6 @@
 
 Minimal reproducible example to investigate **low GPU utilization** when using the **GPU-accelerated OpenPIV** (`openpiv.gpu`) library.
 
-This repository is intended for **debugging, profiling, and compatibility testing** (Python / CUDA / PyCUDA), not as a production PIV pipeline.
-
----
-
-## Purpose
-
-- Reproduce low GPU utilization with `openpiv.gpu.process.gpu_piv`
-- Provide a clear, runnable example for developers and users
-- Help test OpenPIV GPU behavior with recent Python and CUDA versions
-
 ---
 
 ## Repository Contents
