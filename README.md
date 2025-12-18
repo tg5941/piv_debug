@@ -11,8 +11,6 @@ piv_debug/
 ├── environment.yml # Conda environment (CUDA, PyCUDA, OpenPIV GPU)
 └── PIV_utils_tg.py # GPU PIV test and batch utilities
 
----
-
 ## Environment Setup
 
 Create and activate the Conda environment:
