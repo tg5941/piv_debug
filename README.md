@@ -44,47 +44,7 @@ Input images must be PNGs arranged as:
 ```
 Left and Right folders must contain the same number of frames.
 
-Core Functions
-PIV_single_test(...)
-
-Runs a single GPU PIV computation to:
-
-Validate parameters
-
-Check image alignment
-
-Visualize velocity magnitude
-
-Uses:
-from openpiv.gpu import process
-process.gpu_piv(...)
-
-Intended as a sanity check before batch runs.
-
-worker(...)
-
-Runs batched PIV processing, optionally pinned to a specific GPU via:
-
-CUDA_VISIBLE_DEVICES=<gpu_id>
-
-
-Features:
-
-Sequential image loading (I/O-heavy by design)
-
-Repeated gpu_piv calls
-
-Saves results as MATLAB .mat files
-
-This structure helps expose:
-
-GPU idle time
-
-CPU–GPU synchronization overhead
-
-Disk I/O bottlenecks
-
-Output
+## Output
 
 Results are written to:
 
@@ -114,3 +74,5 @@ PIV_single_test(
     file_name="experiment_001",
     params=params
 )
+
+Example ipbyn file should run directly without modifying anything.
